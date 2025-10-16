@@ -1,0 +1,15 @@
+sandbox="sanbox" serve para proteger o site de ataques,segurança maxima
+ex
+<iframe src="segur.html" sandbox="sandbox"></iframe>
+
+
+referrerpolicy="no-referer" permite conteudo de mesma origem, so as coisas que estao no mesmo servidor
+ex
+<iframe src="segur.html" sandbox="allow-same-origin" referrerpolicy="no-referer"></iframe>
+
+se nao confiar melhor colocar sandbox="allow-same-origin"
+
+
+referrerpolicy="no-referer" 
+o conteudo que esta no site nao vai coletar nada do usuario
+<iframe src="segur.html" sandbox="sandbox" referrerpolicy="no-referer"></iframe>
