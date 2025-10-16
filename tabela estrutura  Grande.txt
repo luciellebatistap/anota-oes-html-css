@@ -1,0 +1,12 @@
+Estrutura tabelas grandes
+
+Table 
+     Thead
+         Tr, Th, 
+     Tbody
+          Tr, Td
+     Tfoot
+          Tr, td
+Table
+
+no thead utiliza th e depois th ao inves de td?

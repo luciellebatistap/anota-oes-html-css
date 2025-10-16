@@ -1,0 +1,6 @@
+fixed deixa a imagem de fundo parado
+background-attachment: fixed
+
+Essa propriedade define como a imagem de fundo se comporta quando a página rola (faz scroll).
+
+Ou seja, ela controla se o fundo se move ou fica parado em relação à tela.

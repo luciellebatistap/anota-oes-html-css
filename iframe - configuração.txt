@@ -1,0 +1,9 @@
+Por padrao o tamanho é: 300 X 150
+height="500" width="150"
+css
+ iframe {
+        width:200px;
+        height:200px;
+    }
+
+scolling = 'auto'

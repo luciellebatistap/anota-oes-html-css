@@ -1,0 +1,28 @@
+background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+background-size: cover; 
+
+Ela combina cor, imagem, posição, repetição e comportamento de rolagem.
+
+
+black
+
+Propriedade equivalente: background-color
+Define a cor de fundo.
+url('imagens/wallpaper002.jpg')
+
+Propriedade equivalente: 
+background-image
+
+Indica o arquivo de imagem que será usado como fundo.
+
+enter center
+
+
+Propriedade equivalente: background-position
+
+
+Define a posição da imagem de fundo.
+
+ Primeiro “center” = eixo horizontal
+?? 
+Segundo “center” = eixo vertical

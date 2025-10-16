@@ -1,0 +1,2 @@
+text-align: center; alinha o texto horizontal
+vertical-align: middle; alinha o texto vertical

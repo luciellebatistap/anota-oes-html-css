@@ -1,0 +1,2 @@
+para envelopar control shift + p 
+selecione wrap e depois faça o que quer

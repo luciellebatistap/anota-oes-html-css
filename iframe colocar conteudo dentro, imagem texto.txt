@@ -1,0 +1,47 @@
+id="tela"
+
+
+O atributo id dá um identificador único ao <iframe>, que pode ser usado para:
+Manipular o iframe com JavaScript;
+
+Aplicar CSS específico para ele.
+
+nome="frame"
+
+Serve para dar um nome interno ao iframe — muito usado quando
+links usam o atributo target.
+
+srcdoc="..."
+
+Este é o atributo mais importante aqui.
+
+srcdoc significa “source
+document” (documento de origem).
+Ele permite que você escreva o HTML diretamente
+dentro do atributo, em vez de carregar um arquivo externo via src.
+
+<h1>Escolha uma das oções abaixo</h1>
+
+Essa é uma tag de título principal.
+
+<p> ... </p>
+
+O <p> define um parágrafo de texto.
+
+<img src='cursoemvideo.png'>
+
+Mostra uma imagem dentro do iframe.
+Se o arquivo estiver em outra pasta, será preciso ajustar o caminho, por exemplo:
+<img src='imagens/cursoemvideo.png'>
+
+
+
+ex
+<iframe id="tela" nome="frame" srcdoc="<h1>Escolha uma das oçoes abaixo</h1>
+ <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit harum, iste
+ error aut cupiditate ab placeat praesentium sunt ipsa maxime similique quos dolor
+ et nulla qui, iusto voluptatem exercitationem dicta. Lorem ipsum dolor sit amet
+ consectetur adipisicing elit. Voluptatum quas aliquam libero fugit modi quae?
+ Corrupti quo aperiam placeat veritatis. Nihil sapiente, exercitationem
+ laudantium vitae qui tempora ad. Perspiciatis, vero. </p> <img src= 'cursoemvideo
+.png'>"</iframe>

@@ -1,0 +1,3 @@
+background-size: 100px 100px
+background-size: contain utiliza os 100% da imagem
+background-size: cover ele corta a imagem mais preenche toda 

@@ -1,0 +1,28 @@
+Hierarquia de tabelas
+   Table = tabela
+caption = titulo da tabela 
+ <tr>   table row = linha de tabela
+        table header = cabeçalho de tabela
+ <td>   table data = dado de tabela
+ OBS: Fecha o <td> e o <tr> não é obrigatorio.
+
+ex:
+<table> 
+    <caption> </caption>
+      <tr>
+        <td>A1</td>
+        <td>B1</td>
+        <td>C1</td>
+      </tr>
+      <tr>
+        <td>A2</td>
+        <td>B2</td>
+        <td>C2</td>
+      </tr>
+      <tr>
+        <td>A3</td>
+        <td>B3</td>
+        <td>C3</td>
+      </tr>
+
+    </table>

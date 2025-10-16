@@ -1,0 +1,9 @@
+tbody > tr:nth-child(2n){
+       background-color: darkgrey;
+       }
+
+esta aplicando o efeito zebra no tbody da tabela
+
+tbody > tr:nth-child(2odd){
+       background-color: darkgrey;
+       } deixa tudo que é impar cinza, odd significa impar, even é par

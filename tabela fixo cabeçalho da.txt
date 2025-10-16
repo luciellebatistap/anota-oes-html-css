@@ -1,0 +1,11 @@
+table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+       }  
+em table colocar o position: relativo
+
+thead > tr > th {
+        position: sticky;
+        top:-1px;
+        background-color:gray;

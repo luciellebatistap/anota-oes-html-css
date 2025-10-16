@@ -1,0 +1,3 @@
+scope= col quando é so uma coluna
+scope= colgroup quando é mais
+scope=row quando é linha

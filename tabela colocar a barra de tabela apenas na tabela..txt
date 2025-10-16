@@ -1,0 +1,6 @@
+pega toda a tabela <table> e coloca dentro de um div <div>
+
+no <style> coloca
+div#container {
+overflow: auto;
+}

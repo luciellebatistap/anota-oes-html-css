@@ -1,0 +1,2 @@
+<td colspan="2">B</td> ocupa duas coluna
+<td rowspan="2">B</td> ocupa duas linhas

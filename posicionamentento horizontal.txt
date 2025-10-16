@@ -1,0 +1,16 @@
+position absolution 
+
+
+pode usar left e top
+left: 100pix; pode usar porcentagem tbem
+top: 100pix; tambem pode usar porcentagem
+
+transform: translate é um ajusto mais fino
+
+transform: translate(%20, %20); (posiciona de um lado pra outro)
+
+transform: translate pode ser usado no positio absoluto
+
+
+position: relative
+Posição em relação do que esta 

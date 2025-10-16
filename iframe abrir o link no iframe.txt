@@ -1,0 +1,6 @@
+Na parte de do link vc coloca em target o nome escolhido do iframe
+ <li><a href="iframe002.html" target="frame">Primeira Pagina</a></li> 
+
+No iframe vc escole o nome, nessa caso é frame
+<iframe id="tela" name="frame" src=""><p>Infelismente o seu navegador não é compativel com isso</p></iframe>
+
