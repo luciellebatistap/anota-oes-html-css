@@ -1,0 +1,16 @@
+Metodo GET e Metodo POST
+GET aparece os dados no endereço do site
+POST não aparece os dados no endereço do site
+
+nao usar get em mais de 3 mil letras e em senhas
+post usar em dados senssiveis, usar envio de arquivos
+
+method="get"
+
+<form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+        <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+        <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>

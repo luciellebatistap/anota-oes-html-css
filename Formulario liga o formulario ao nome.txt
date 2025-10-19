@@ -1,0 +1,11 @@
+liga o formulario ao nome do formulario
+
+utiliza <label for="inome">Nome:</label>
+
+<form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+        <input type="text" name="inome" id="nome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+        <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
