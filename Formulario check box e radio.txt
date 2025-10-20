@@ -1,0 +1,27 @@
+Botão  radio
+
+Deve colocar o name igual, para que a bolinha so fique em uma opção
+
+check é para deixar marca uma oção já de inicio 
+
+
+<fieldset>
+                <legend> Sexo</legend>
+                <input type="radio" name="sexo" id="isxmasc" checked>Masculino  <br>
+                <label for="sxmasc" id="isxmasc"></label>
+                 <input type="radio" name="sexo" id="isxfem">Feminino
+                <label for="sxfem" id="isxfem"></label>
+            </fieldset>
+
+
+Botão checkbox
+
+
+  <fieldset>
+                <legend>Espote Favorito</legend>
+                <input type="checkbox" name="esfut" id="iesfut">Basquete <br>
+                <label for="basq" id="ibasq"></label>
+                <input type="checkbox" name="esfut" id="iesfut"> Futebol <br>
+                <input type="checkbox" name="esfut" id="iesfut"> Natação <br>
+                <input type="checkbox" name="esfut" id="iesfut"> Tenis <br>
+            </fieldset>
