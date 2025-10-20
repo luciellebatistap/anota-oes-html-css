@@ -1,5 +1,50 @@
+Formulario de email
+<p>
+        <label for="imail">E-mail</label>
+        <input type="email" name="email" id="imail" autocomplete="email" required>
+    </p>
+
+Formulario de telefone
+<p>
+        <label for="itel">Telefone</label>
+        <input type="text" name="tel" id="itel"
+       autocomplete="tel"
+       pattern="(\([0-9]{2}\)\s?)?[0-9]{4,5}-?[0-9]{4}"
+       required
+       placeholder="(38) 99999-9999">
+    </p>
+
+( e )	São parênteses de agrupamento (não aparecem no texto final, servem só para organizar).
+
+\( e \)	Os parênteses reais do número, como (38). O \ é usado para “escapar”, dizendo que queremos o símbolo literal.
+
+[0-9]{2} Significa dois dígitos numéricos (0 a 9). Exemplo: 38.
+\s? Significa um espaço opcional depois do DDD. (? = opcional). Exemplo: (38) 99999-9999 ou (38)99999-9999.
+
+(...) ? (todo o grupo com ?)	Torna tudo isso opcional. Ou seja, o número pode ter DDD ou não.
+
+[0-9]{4,5}	Representa 4 ou 5 dígitos — o começo do número. Exemplo: 9999 ou 99999.
+
+-?O traço é opcional (?). Exemplo: 9999-9999 ou 999999999.
+
+[0-9]{4}	Representa os 4 últimos dígitos. Exemplo: 9999.
+
+?? 
+
+Resumindo o padrão completo:
+
+Ele aceita:
 
 
+(38) 99999-9999
 
-regex
 
+(38)99999-9999
+
+
+38999999999
+
+99999-9999
+
+
+999999999
