@@ -1,0 +1,27 @@
+minlength = Tamanho minimo de caracteres
+
+maxlength = Tamanho maximo de caracteres
+
+placeholder= Coloca um nome dentro da caixa, bom pra dizer o que é aquela caixa 
+ou dar dica de preenchimento
+
+autocomplete=  dentro de cada caixa do formulario, da pra selecionar o que é
+essa caixa ex nome, cep, idade, sexo, telefone e rua.
+
+
+<form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iusu">Usuario</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size3="30" placeholder="Nome do Usuario" autocomplete="additional-name">
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="10" size3="30">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+
+    </form>
