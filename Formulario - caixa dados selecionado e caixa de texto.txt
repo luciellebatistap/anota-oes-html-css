@@ -1,0 +1,51 @@
+Seleção tipo com caixa pre existenta, e colocando subgroup
+
+<p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value=""Selected>----Escolha---</option>
+                    <optgroup label="Grupo A">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP" >São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="BA">Bahia</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+
+                    <option label="Grupo B">
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="GO">Goias</option>
+                        <option value="TO">Tocatins</option>
+                        <option value="AC">Acre</option>
+                    </option>
+               
+            </select>
+        </p>
+
+
+Outro tipo de caixa esse aceita adionar opção quando não tem
+
+ <p>
+           
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+Formulario para caixa de mensagem colocar methodo post
+
+
+<p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
