@@ -1,0 +1,31 @@
+media queries e a mesma coisa de media types + medias Features
+Media Types = tipo 
+Medias Features = caracteriticas
+
+<link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation:landscape)">explique cada um
+
+1. <link>
+Função: É o elemento HTML que estabelece a relação entre o documento HTML atual e um recurso externo.
+
+
+
+2. rel="stylesheet"
+Função: É um atributo que define a relação (do inglês, relationship) do recurso vinculado.
+
+
+Significado: Indica que o recurso apontado (o arquivo CSS) é uma folha de estilos.
+
+
+
+3. href="estilos/paisagem.css"
+Função: É o atributo que especifica o caminho (URL) do recurso externo a ser 
+vinculado.
+
+Significado: O navegador buscará o arquivo CSS chamado paisagem.css dentro da pasta estilos/. 
+Este arquivo contém as regras de estilo.
+
+
+
+4. media="screen and (orientation:landscape)"
+Função: Este é o coração da Media Query. O atributo media especifica
+sob quais condições a folha de estilos deve ser aplicada.
