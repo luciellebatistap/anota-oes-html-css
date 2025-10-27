@@ -1,0 +1,6 @@
+flex-wrap:nowrap; ---- PAdrão é esse significa nao quebre
+
+flex-wrap:wrap; ao diminuir ele quebra pra baixo
+
+flex-wrap: wrap-reverse; quando diminuir ele quebra para cima
+

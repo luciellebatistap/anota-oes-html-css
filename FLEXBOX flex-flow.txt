@@ -1,0 +1,4 @@
+flex-flow é igual a junção flex-direction + flex-wrap
+
+flex-flow: row nowrap;
+

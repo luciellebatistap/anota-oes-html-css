@@ -1,0 +1,11 @@
+Flex-direcition:row organização na hori
+flex-direction:column; vertical
+flex-direction: row = deitado da direita para esquerda
+
+Horizontal
+main-start e main-end
+
+vertical
+cross-star
+cross-and
+

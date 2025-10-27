@@ -1,0 +1,48 @@
+flex-direction
+<div class="container">
+    
+<div class="item">1</div>
+    
+<div class="item">2</div>
+    
+<div class="item">3</div>
+</div>
+
+flex-direction: row
+.container-row {
+
+    display: flex;
+    /* Define o eixo principal como a linha, da esquerda para a direita */
+    
+flex-direction: row; 
+
+}
+
+flex-direction: row-reverse
+.container-row-reverse {
+    display: flex;
+    /* Define o eixo principal como a linha, mas na ordem inversa */
+    
+flex-direction: row-reverse; 
+
+}
+
+flex-direction: column
+.container-column {
+    display: flex;
+    /* Define o eixo principal como a coluna, de cima para baixo */
+    
+flex-direction: column; 
+    height: 150px; /* É bom definir uma altura para ver o efeito da coluna */
+
+}
+
+flex-direction: column-reverse
+.container-column-reverse {
+    display: flex;
+    /* Define o eixo principal como a coluna, mas na ordem inversa */
+    
+flex-direction: column-reverse; 
+    height: 150px; /* É bom definir uma altura para ver o efeito da coluna */
+
+}
