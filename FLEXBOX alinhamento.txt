@@ -1,0 +1,13 @@
+justify-content
+
+justify-content: flex-start = alinhar para o inicio (main start)
+justify-content: flex-start = alinha no centro
+
+justify-content: space-between = deixa o primeiro item no main star e o ultimo no 
+main-and
+
+
+justify-content:space-evenly = antes dos primeiro item e depois do ultimo tem
+um espaçamento igual
+
+justify-content:space-around=  divide o espaço dos itens em espaço iguais
